@@ -1,0 +1,67 @@
+.section-subtitle {
+    font-size: 15px;
+    font-weight: bold;
+    color: $color-accent;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+// Regla de 3:
+//   100%  (ancho total disponible)
+//  -  4%  
+//  -------
+//    96%  (lo que les queda a las 2 cards juntas)
+//
+//   96% / 2 cards = 48%  -> ancho de CADA card
+//
+//  width: 48% -- margin-right: 4%
+
+.card {
+    float: left;
+    width: 48%;
+    background-color: #f4f4f4;
+    border: 1px solid #dddddd;
+    padding: 25px;
+    min-height: 360px;
+    margin-right: 4%;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.card:last-child {
+    margin-right: 0;
+}
+
+.card-title {
+    font-size: 15px;
+    font-weight: bold;
+    font-style: italic;
+    color: $color-text;
+    margin: 0 0 10px 0;
+}
+
+.img-product1 {
+    float: right;
+    width: 110px;
+    height: auto;
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+
+.img-product2 {
+    float: right;
+    width: 180px;
+    height: auto;
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+
+.more-info {
+    position: absolute;
+    bottom: 20px;
+    right: 25px;
+    font-size: 13px;
+    color: $color-accent;
+    text-decoration: none;
+    font-weight: bold;
+}

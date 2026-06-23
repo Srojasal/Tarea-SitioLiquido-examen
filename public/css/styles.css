@@ -1,0 +1,180 @@
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #FFFFFF;
+  margin: 0;
+  padding: 0;
+}
+
+.main-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+.grayBar {
+  height: 15px;
+  background-color: #E8E8E8;
+  width: 100%;
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: normal;
+  color: #585858;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  text-align: left;
+}
+
+.navbar {
+  padding: 15px 0;
+  border-bottom: 2px solid #888;
+  text-align: justify;
+}
+
+.navbar::after {
+  content: "";
+  display: inline-block;
+  width: 100%;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #585858;
+  font-size: 15px;
+  display: inline-block;
+}
+
+.hero, .bottom-section {
+  margin-top: 30px;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #aa1535;
+  margin-bottom: 15px;
+}
+
+p {
+  font-size: 13px;
+  color: #7f8c8d;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+.section-subtitle {
+  font-size: 15px;
+  font-weight: bold;
+  color: #aa1535;
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+
+.card {
+  float: left;
+  width: 48%;
+  background-color: #f4f4f4;
+  border: 1px solid #dddddd;
+  padding: 25px;
+  min-height: 360px;
+  margin-right: 4%;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.card:last-child {
+  margin-right: 0;
+}
+
+.card-title {
+  font-size: 15px;
+  font-weight: bold;
+  font-style: italic;
+  color: #585858;
+  margin: 0 0 10px 0;
+}
+
+.img-product1 {
+  float: right;
+  width: 110px;
+  height: auto;
+  margin-left: 15px;
+  margin-bottom: 10px;
+}
+
+.img-product2 {
+  float: right;
+  width: 180px;
+  height: auto;
+  margin-left: 15px;
+  margin-bottom: 10px;
+}
+
+.more-info {
+  position: absolute;
+  bottom: 20px;
+  right: 25px;
+  font-size: 13px;
+  color: #aa1535;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.main-footer {
+  background-color: #E5DED4;
+  padding: 25px 0;
+  margin-top: 40px;
+  text-align: center;
+  clear: both;
+}
+
+.main-footer p {
+  color: #aa1535;
+  font-size: 13px;
+  margin: 0;
+}
+
+span {
+  color: #7f8c8d;
+}
+
+@media (max-width: 768px) {
+  .main-container {
+    padding: 0 20px;
+  }
+  h1 {
+    font-size: 24px;
+    margin-top: 20px;
+  }
+  .navbar {
+    text-align: left;
+  }
+  .navbar a {
+    display: block;
+    margin-bottom: 10px;
+  }
+  .card {
+    float: none;
+    width: 100%;
+    margin-right: 0;
+  }
+  .img-product1 {
+    width: 90px;
+  }
+  .img-product2 {
+    width: 140px;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */

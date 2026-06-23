@@ -1,0 +1,18 @@
+.navbar {
+    padding: 15px 0;
+    border-bottom: 2px solid #888; 
+    text-align: justify;
+}
+
+.navbar::after { 
+    content: "";
+    display: inline-block;
+    width: 100%;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: $color-text;
+    font-size: 15px;
+    display: inline-block;
+}
